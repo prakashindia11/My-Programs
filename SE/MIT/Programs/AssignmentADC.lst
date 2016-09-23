@@ -1,0 +1,24 @@
+     1 00000000 8CC8                    mov ax,cs               ;Initialization of data segment
+     2 00000002 8ED8                    mov ds,ax
+     3                                  
+     4 00000004 B099                    mov al,99h              ;Initializing CWR
+     5 00000006 E667                    out 67h,al
+     6                                  
+     7 00000008 B005                    mov al,05h              ;EO,SOC
+     8 0000000A E663                    out 63h,al
+     9                                  
+    10 0000000C B004                    mov al,04h
+    11 0000000E E663                    out 63h,al              ;Reset SOC for conversion
+    12                                  
+    13 00000010 E465                    back :  in al,65h       ;Read data from Port C
+    14 00000012 A801                            test al,01h     ;Test for EOC = 1
+    15 00000014 74FA                            jz back
+    16                                  
+    17 00000016 B006                    mov al,06h              ;Enable output
+    18 00000018 E663                    out 63h,al
+    19                                  
+    20 0000001A E461                    in al,61h
+    21 0000001C BBB80B                  mov bx,3000
+    22 0000001F 8807                    mov [bx],al
+    23 00000021 CD03                    int 3
+    24                                  

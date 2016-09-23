@@ -1,0 +1,37 @@
+OUTPUT : 
+
+student@HL3:~/Documents/SE138$ nasm -f elf64 -o Assignment7.o Assignment7.asm
+student@HL3:~/Documents/SE138$ nasm -f elf64 -o Procedure.o procedure.asm
+student@HL3:~/Documents/SE138$ ld Assignment7.o Procedure.o
+student@HL3:~/Documents/SE138$ ./a.out
+
+
+Assignment No 7 :  String Manipulation
+--------------------------------------
+Enter String 1 : prakash
+
+Enter String 2 : akash
+
+-----------Menu------------
+1 Concatenation of strings
+2 Occurance Of Character
+3 Exit
+Enter your choice :	1
+
+Concatenated string :  prakashakash
+
+-----------Menu------------
+1 Concatenation of strings
+2 Occurance Of Character
+3 Exit
+Enter your choice :	2
+
+The substring is present.
+Number of occurences of substring is : 0001
+
+-----------Menu------------
+1 Concatenation of strings
+2 Occurance Of Character
+3 Exit
+Enter your choice :	3
+student@HL3:~/Documents/SE138$ 

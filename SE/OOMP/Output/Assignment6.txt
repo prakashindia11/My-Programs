@@ -1,0 +1,120 @@
+OUTPUT : 
+
+prakash@ubuntu:~$ cd Documents
+prakash@ubuntu:~/Documents$ g++ -o Assignment6 Assignment6.cpp
+prakash@ubuntu:~/Documents$ ./Assignment6
+Select one of the following options : 
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 1
+
+Name : Akash
+Date of Birth (dd/mm/yyyy) : 14/12/1994
+Blood Group : A+
+Address : Talegaon
+Height (cm) : 176
+Weight (KG) : 59
+Insurance Policy Number : 45890
+Telephone Number : 224808
+Driving License Number : 43216
+
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 1
+
+Name : Shreyas
+Date of Birth (dd/mm/yyyy) : 16/10/1994
+Blood Group : B+
+Address : Talegaon
+Height (cm) : 170
+Weight (KG) : 56
+Insurance Policy Number : 45891
+Telephone Number : 228558
+Driving License Number : 44216
+
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 1
+
+Name : Yash
+Date of Birth (dd/mm/yyyy) : 02/06/1996
+Blood Group : O+
+Address : Talegaon
+Height (cm) : 180
+Weight (KG) : 60
+Insurance Policy Number : 45880
+Telephone Number : 227901
+Driving License Number : 48216
+
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 1
+
+Name : Ravi
+Date of Birth (dd/mm/yyyy) : 10/04/1994
+Blood Group : A+
+Address : Vadgaon
+Height (cm) : 174
+Weight (KG) : 60
+Insurance Policy Number : 45711
+Telephone Number : 229088
+Driving License Number : 42456
+
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 2
+
+Name 	 DoB 	  Blood Group 	 Address  	 Height (cm)  	 Weight (KG) 	 Policy Number 	 Telephone Number 	 License Number
+Akash	14/12/1994        A+  	Talegaon       	176        	59     			45890    	224808     	43216
+Shreyas	16/10/1994        B+  	Talegaon       	170        	56     			45891    	228558     	44216
+Yash	02/06/1996        O+  	Talegaon       	180        	60     			45880    	227901     	48216
+Ravi	10/04/1994        A+   	Vadgaon       	174        	60     			45711    	229088     	42456
+
+Total number of records : 4
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 3
+
+Enter the Name to be searched : Shreyas
+Enter the Telephone Number of Shreyas : 228558
+
+The record is deleted successfully.
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 2
+
+Name 	 DoB 	  Blood Group 	 Address  	 Height (cm)  	 Weight (KG) 	 Policy Number 	 Telephone Number 	 License Number
+Akash	14/12/1994        A+  	Talegaon       	176        	59     			45890    	224808     	43216
+Yash	02/06/1996        O+  	Talegaon       	180        	60     			45880    	227901     	48216
+Ravi	10/04/1994        A+   	Vadgaon       	174        	60     			45711    	229088     	42456
+
+Total number of records : 3
+
+1 Enter data of person 
+2 Display records 
+3 Delete a record 
+4 Exit
+Enter your choice : 4
+prakash@ubuntu:~/Documents$ 
+

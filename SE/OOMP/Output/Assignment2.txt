@@ -1,0 +1,79 @@
+OUTPUT :
+
+prakash@ubuntu:~/Documents$ g++ -o Assignment2 Assignment2.cpp
+prakash@ubuntu:~/Documents$ ./Assignment2
+Select one of the options : 
+
+1 Enter data of book 
+2 Display data of books 
+3 Search book 
+4 Exit
+Enter your choice : 1
+
+Title of Book : EM3
+Author of Book : Kulkarni
+Publisher of Book : Nirali
+Price of Book : 500
+Stock of Book : 50
+
+
+1 Enter data of book 
+2 Display data of books 
+3 Search book 
+4 Exit
+Enter your choice : 1
+
+Title of Book : OOMP
+Author of Book : Sanjesh
+Publisher of Book : TechMax
+Price of Book : 435
+Stock of Book : 80
+
+
+1 Enter data of book 
+2 Display data of books 
+3 Search book 
+4 Exit
+Enter your choice : 1
+
+Title of Book : CGG
+Author of Book : Darshan        
+Publisher of Book : TechMax        
+Price of Book : 435
+Stock of Book : 70
+
+
+1 Enter data of book 
+2 Display data of books 
+3 Search book 
+4 Exit
+Enter your choice : 2
+
+Title    Author          Publisher      Price  Stock
+EM3 	 Kulkarni 	 Nirali 	 500 	 50
+OOMP 	 Sanjesh 	 TechMax 	 435 	 80
+CGG 	 Darshan 	 TechMax 	 435 	 70
+
+1 Enter data of book 
+2 Display data of books 
+3 Search book 
+4 Exit
+Enter your choice : 3
+
+Enter name of book : OOMP
+Enter name of author : Sanjesh
+
+Book Name : OOMP
+Book Author : Sanjesh
+Book Publisher : TechMax
+Available Copies : 80
+Enter the number of copies you want :40
+Total price : Rs 17400
+
+1 Enter data of book 
+2 Display data of books 
+3 Search book 
+4 Exit
+Enter your choice : 4
+prakash@ubuntu:~/Documents$ 
+

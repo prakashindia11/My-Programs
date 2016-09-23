@@ -1,0 +1,31 @@
+OUTPUT : 
+
+student@HL3:~$ cd Documents
+student@HL3:~/Documents/SE138$$ nasm -f elf64 -o Assignment5.o Assignment5.asm
+student@HL3:~/Documents/SE138$$ ld -o Assignment5 Assignment5.o
+student@HL3:~/Documents/SE138$$ ./Assignment5
+
+Assignment 5 : Multiplication of 2 HEX numbers
+Enter 1st Number : 0004
+Enter 2nd Number : 0005
+
+............Menu...........
+1 Successive Additon Method
+2 Add & Shift Method
+3 Exit
+Enter your choice : 1
+00000014
+
+............Menu...........
+1 Successive Additon Method
+2 Add & Shift Method
+3 Exit
+Enter your choice : 2
+00000014
+
+............Menu...........
+1 Successive Additon Method
+2 Add & Shift Method
+3 Exit
+Enter your choice : 3
+student@HL3:~/Documents/SE138$$

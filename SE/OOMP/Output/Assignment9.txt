@@ -1,0 +1,23 @@
+OUTPUT : 
+
+Enter Model No : 5360
+Enter the screen size (in inches) : 21
+Enter the price (in $) : 2001
+
+You entered the following details :  : 
+
+Model Number : 5360
+Screen Size : 21
+Price : $2001
+
+Enter Model No : 5360
+Enter the screen size (in inches) : 71
+Enter the price (in $) : 2001
+
+Screen size should be between 12 to 70 inches
+You entered the following details :  : 
+
+Model Number : 0
+Screen Size : 0
+Price : $0
+

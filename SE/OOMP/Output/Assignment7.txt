@@ -1,0 +1,84 @@
+OUTPUT : 
+
+prakash@ubuntu:~$ cd Documents
+prakash@ubuntu:~/Documents$ g++ -o Assignment6 Assignment6.cpp
+prakash@ubuntu:~/Documents$ ./Assignment6
+
+Matrix 1
+Enter the matrix data : 
+M11 : 1
+M12 : 2
+M13 : 3
+M21 : 4
+M22 : 5
+M23 : 6
+M31 : 7
+M32 : 8
+M33 : 9
+
+Matrix 2
+Enter the matrix data : 
+M11 : 9
+M12 : 8
+M13 : 7
+M21 : 6
+M22 : 5
+M23 : 4
+M31 : 3
+M32 : 2
+M33 : 1
+
+Matrix 1 : 
+1	2	3	
+4	5	6	
+7	8	9	
+
+Matrix 2 : 
+9	8	7	
+6	5	4	
+3	2	1	
+
+Select one of the following options : 
+
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Exit
+Enter your choice : 1
+
+Addition : 
+10	10	10	
+10	10	10	
+10	10	10	
+
+
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Exit
+Enter your choice : 2
+
+Subtraction : 
+-8	-6	-4	
+-2	0	2	
+4	6	8	
+
+
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Exit
+Enter your choice : 3
+
+Multiplication : 
+30	18	14	
+82	69	56	
+138	120	98	
+
+
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Exit
+Enter your choice : 4
+prakash@ubuntu:~/Documents$

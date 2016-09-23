@@ -1,0 +1,72 @@
+OUTPUT : 
+
+student@HL3:~$ cd Documents
+student@HL3:~/Documents/SE138$$ nasm -f elf64 -o Assignment4.o Assignment4.asm
+student@HL3:~/Documents/SE138$$ ld -o Assignment4 Assignment4.o
+student@HL3:~/Documents/SE138$$ ./Assignment4
+
+
+Assignment 4 : String Operations
+-----------------------------------
+
+Enter the string : pccoe
+
+
+**********MENU**********
+1 Length of String
+2 Reverse the string
+3 Check if string is palindrome
+4 Exit
+Enter your choice : 1
+
+Length of string : 0005
+
+**********MENU**********
+1 Length of String
+2 Reverse the string
+3 Check if string is palindrome
+4 Exit
+Enter your choice : 2
+
+Reverse of string : eoccp
+
+**********MENU**********
+1 Length of String
+2 Reverse the string
+3 Check if string is palindrome
+4 Exit
+Enter your choice : 3
+
+The string is not palindrome
+
+**********MENU**********
+1 Length of String
+2 Reverse the string
+3 Check if string is palindrome
+4 Exit
+Enter your choice : 4
+student@HL3:~/Documents$ ./Assignment4
+
+
+Assignment 4 : String Operations
+-----------------------------------
+
+Enter the string : stats
+
+
+**********MENU**********
+1 Length of String
+2 Reverse the string
+3 Check if string is palindrome
+4 Exit
+Enter your choice : 3
+
+The string is a palindrome
+
+**********MENU**********
+1 Length of String
+2 Reverse the string
+3 Check if string is palindrome
+4 Exit
+Enter your choice : 4
+student@HL3:~/Documents/SE138$$

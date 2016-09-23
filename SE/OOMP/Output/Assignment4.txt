@@ -1,0 +1,61 @@
+OUTPUT :
+
+prakash@ubuntu:~$ cd Documents
+prakash@ubuntu:~/Documents$ g++ -o Assignment4 Assignment4.cpp
+prakash@ubuntu:~/Documents$ ./Assignment4
+Enter Real part for 1st Number : 1
+Enter Imaginary part for 1st Number : 2
+
+Enter Real part for 2nd Number : 3
+Enter Imaginary part for 2nd Number : 1
+
+Select the operation to be performed : 
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Division 
+5 Exit
+Enter your choice : 1
+
+Answer = 4 + 3i
+
+Select the operation to be performed : 
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Division 
+5 Exit
+Enter your choice : 2
+
+Answer = -2 + 1i
+
+Select the operation to be performed : 
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Division 
+5 Exit
+Enter your choice : 3
+
+Answer = 1 + 7i
+
+Select the operation to be performed : 
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Division 
+5 Exit
+Enter your choice : 4
+
+Answer = 0.5 + 0.5i
+
+
+Select the operation to be performed : 
+1 Addition 
+2 Subtraction 
+3 Multiplication 
+4 Division 
+5 Exit
+Enter your choice : 5
+prakash@ubuntu:~/Documents$ 
+

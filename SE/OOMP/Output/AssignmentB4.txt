@@ -1,0 +1,206 @@
+OUTPUT : 
+
+Select one of the following option : 
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+1
+Enter Name : 
+Prakash
+Enter Subject : 
+OOMP
+Enter Roll No : 
+138
+Enter Subject Code : 
+1
+Enter Internal Marks : 
+41
+Enter University Marks : 
+81
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+1
+Enter Name : 
+Vaibhav
+Enter Subject : 
+OOMP
+Enter Roll No : 
+145
+Enter Subject Code : 
+1
+Enter Internal Marks : 
+32
+Enter University Marks : 
+72
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+1
+Enter Name : 
+Farhaan
+Enter Subject : 
+OOMP
+Enter Roll No : 
+153
+Enter Subject Code : 
+1
+Enter Internal Marks : 
+41
+Enter University Marks : 
+76
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+2
+
+
+Name : Prakash
+Subject : OOMP
+Roll No : 138
+Subject Code : 1
+Internal Marks : 41
+University Marks : 81
+Count : 3
+Total marks : 122
+
+
+Name : Vaibhav
+Subject : OOMP
+Roll No : 145
+Subject Code : 1
+Internal Marks : 32
+University Marks : 72
+Count : 3
+Total marks : 104
+
+
+Name : Farhaan
+Subject : OOMP
+Roll No : 153
+Subject Code : 1
+Internal Marks : 41
+University Marks : 76
+Count : 3
+Total marks : 117
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+3
+Enter the name to be searched : 
+Prakash
+Enter the Roll Number :  
+138
+
+Details of Roll No : 138
+
+Name : Prakash
+Subject : OOMP
+Roll No : 138
+Subject Code : 1
+Internal Marks : 41
+University Marks : 81
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+4
+Enter the name to be deleted : 
+Farhaan
+Enter the Roll Number :  
+153
+
+Data deleted successfully
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+5
+Enter the name to be edited : 
+Vaibhav
+Enter the Roll Number :  
+145
+Enter Name : 
+Vaibhav
+Enter Subject : 
+Maths
+Enter Roll No : 
+145
+Enter Subject Code : 
+3
+Enter Internal Marks : 
+21
+Enter University Marks : 
+81
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+2
+
+
+Name : Prakash
+Subject : OOMP
+Roll No : 138
+Subject Code : 1
+Internal Marks : 41
+University Marks : 81
+Count : 3
+Total marks : 122
+
+
+Name : Vaibhav
+Subject : Maths
+Roll No : 145
+Subject Code : 3
+Internal Marks : 21
+University Marks : 81
+Count : 3
+Total marks : 102
+
+
+1 Enter data 
+2 Display Data 
+3 Search Data 
+4 Delete Data 
+5 Edit Data 
+6 Exit
+Enter your choice : 
+6

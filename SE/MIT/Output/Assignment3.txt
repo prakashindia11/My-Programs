@@ -1,0 +1,42 @@
+student@HL3:~/Documents/SE138$ nasm -f elf64 -o Assignment3.o Assignment3.asm
+student@HL3:~/Documents/SE138$ ld -o Assignment3 Assignment3.o
+student@HL3:~/Documents/SE138$ ./Assignment3
+
+
+Assignment 2 : Number Conversion
+-----------------------------------------
+
+**********MENU**********
+1 HEX to BCD Conversion
+2 BCD to HEX Conversion
+3 Exit
+Enter your choice : 1
+
+HEX to BCD CONVERSION
+Enter 4-digit HEX Number : ffff
+Equivalent BCD Number : 65535
+
+Assignment 2 : Number Conversion
+-----------------------------------------
+
+**********MENU**********
+1 HEX to BCD Conversion
+2 BCD to HEX Conversion
+3 Exit
+Enter your choice : 2
+
+BCD to HEX CONVERSION
+Enter 5-digit BCD Number : 65535
+Equivalent HEX Number : FFFF
+
+Assignment 2 : Number Conversion
+-----------------------------------------
+
+**********MENU**********
+1 HEX to BCD Conversion
+2 BCD to HEX Conversion
+3 Exit
+Enter your choice : 3
+student@HL3:~/Documents/SE138$ 
+
+

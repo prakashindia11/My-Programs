@@ -1,0 +1,14 @@
+OUTPUT : 
+
+student@HL3:~/Documents/SE138$:~/Documents$ nasm -f elf64 -o 8087.o 8087.asm
+student@HL3:~/Documents/SE138$:~/Documents$ ld -o 8087 8087.o
+student@HL3:~/Documents/SE138$:~/Documents$ ./8087
+
+MIL assignment 13 : 8087 program for mean, SD, & Variance
+---------------------------------------------
+
+CALCULATED MEAN 		: 000000000000000333.33
+CALCULATED STANDARD DEVIATION	: 000000000000000157.13
+CALCULATED VARIANCE 		: 000000000000024690.86
+
+student@HL3:~/Documents/SE138$:~/Documents$ 

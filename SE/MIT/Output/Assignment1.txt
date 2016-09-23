@@ -1,0 +1,14 @@
+student@HL3:~/Documents/SE138$ nasm -f elf64 -o Assignment1.o Assignment1.asm
+student@HL3:~/Documents/SE138$ ld -o Assignment1 Assignment1.o
+student@HL3:~/Documents/SE138$ ./Assignment1
+
+Assignment 1 : Addition of n 16-bit 
+----------------------------------
+
+Enter size of array <????> = 0001
+
+Enter data <????>	= 1234
+
+Result <????????>	= 00001234
+
+student@HL3:~/Documents/SE138$ 

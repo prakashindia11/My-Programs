@@ -1,0 +1,108 @@
+OUTPUT : 
+
+prakash@ubuntu:~$ cd Documents
+prakash@ubuntu:~/Documents$ g++ -o Assignment1 Assignment1.cpp
+prakash@ubuntu:~/Documents$ ./Assignment1
+Select one of the following option : 
+
+1 Enter Data
+2 Display Data
+3 Exit
+Enter your choice : 1
+
+Enter month : 5
+Enter day of month : 11
+Enter High Temperature : 40
+Enter Low Temperature : 25
+Enter amount of rain : 0
+Enter amount of snow : 0
+
+
+1 Enter Data
+2 Display Data
+3 Exit
+Enter your choice : 1
+
+Enter month : 5
+Enter day of month : 16
+Enter High Temperature : 38
+Enter Low Temperature : 24
+Enter amount of rain : 0
+Enter amount of snow : 0
+
+
+1 Enter Data
+2 Display Data
+3 Exit
+Enter your choice : 1
+
+Enter month : 5 
+Enter day of month : 24
+Enter High Temperature : 36
+Enter Low Temperature : 23
+Enter amount of rain : 0
+Enter amount of snow : 0
+
+
+1 Enter Data
+2 Display Data
+3 Exit
+Enter your choice : 1
+
+Enter month : 5
+Enter day of month : 31
+Enter High Temperature : 36
+Enter Low Temperature : 23
+Enter amount of rain : 0
+Enter amount of snow : 0
+
+
+1 Enter Data
+2 Display Data
+3 Exit
+Enter your choice : 2
+
+Select a month : 5
+
+Month : 5
+Day  High Temp  Low Temp  Rain  Snow
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+11 	 40 	 25 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+16 	 38 	 24 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+24 	 36 	 23 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+99 	 999 	 -999 	 0 	 0
+31 	 36 	 23 	 0 	 0
+...................................
+Avg	 38 	 24 	 0 	 0
+
+1 Enter Data
+2 Display Data
+3 Exit
+Enter your choice : 3
+prakash@ubuntu:~/Documents$ 
+

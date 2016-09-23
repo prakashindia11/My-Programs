@@ -1,0 +1,43 @@
+     1 00000000 B001                    mov al,01h      ;1st Command Word for left entry for flashing
+     2 00000002 E631                    out 31h,al
+     3                                  
+     4 00000004 B090                    mov al,90h      ;2nd Command Word
+     5 00000006 E631                    out 31h,al
+     6                                  
+     7 00000008 8CC8                    mov ax,cs       ;Initialization of Data Segment
+     8 0000000A 8ED8                    mov ds,ax
+     9                                  
+    10 0000000C B104                    again : mov cl,04h      ;Counter for 4 numbers
+    11                                  
+    12 0000000E BB0010                          mov bx,1000h
+    13                                  
+    14 00000011 8A07                    back:   mov al,[bx]
+    15 00000013 E630                            out 30h,al
+    16 00000015 43                              inc bx
+    17 00000016 FEC8                            dec al
+    18 00000018 75F7                            jnz back
+    19                                          
+    20 0000001A BEFFFF                          mov si,00ffffh
+    21                                          
+    22 0000001D 4E                      delay : dec si
+    23 0000001E 75FD                            jnz delay
+    24                                          
+    25 00000020 B104                            mov cl,04h
+    26 00000022 BB0010                          mov bx,1000h
+    27                                          
+    28 00000025 8A07                            mov al,[bx]
+    29                                          
+    30 00000027 E630                    back1 : out 30h,al
+    31 00000029 43                              inc bx
+    32 0000002A FEC8                            dec al
+    33 0000002C 75F9                            jnz back1
+    34                                          
+    35 0000002E BEFFFF                          mov si,00ffffh
+    36                                          
+    37 00000031 4E                      delay1: dec si
+    38 00000032 75E9                            jnz delay
+    39 00000034 EBD6                            jmp again
+    40                                          
+    41 00000036 CD03                            int 3
+    42                                  
+    43                                  

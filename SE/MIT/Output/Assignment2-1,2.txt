@@ -1,0 +1,19 @@
+student@HL3:~/Documents/SE138$ nasm -f elf64 -o Assignment2-1.o Assignment2-1.asm 
+student@HL3:~/Documents/SE138$ ld -o Assignment2-1 Assignment2-1.o
+student@HL3:~/Documents/SE138$ ./Assignment2-1
+
+Assignment 2: Block Transfer Non-Overlap
+----------------------------------------------------
+
+Before transfer
+Source block : 11 22 33 44 55 
+Destination block : 00 00 00 00 00 
+
+
+After transfer
+Source block : 11 22 33 44 55 
+Destination block : 11 22 33 44 55 
+
+student@HL3:~/Documents/SE138$ 
+
+

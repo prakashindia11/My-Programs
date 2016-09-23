@@ -1,0 +1,12 @@
+     1 00000000 B080                    mov al,80h      ;CWR
+     2 00000002 E667                    out 67h,al
+     3                                  
+     4 00000004 B001                    mov al,01h      ;Latch
+     5 00000006 E663                    out 63h,al
+     6                                  
+     7 00000008 B0FF                    mov al,0ffh      ;Backward ramp
+     8                                  
+     9 0000000A E661                    back :  out 61h,al
+    10 0000000C FEC8                            dec al
+    11 0000000E EBFA                            jmp back
+    12 00000010 CD03                            int 3
